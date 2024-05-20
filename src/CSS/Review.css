@@ -1,0 +1,16 @@
+.review-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.review-box-item{
+    margin-left: 10px;
+}
+.log{
+    background-color: rgb(21, 19, 25);
+    border-radius: 50%;
+}
+.review-txt{
+    color: rgb(194, 204, 204);
+}

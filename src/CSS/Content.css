@@ -1,0 +1,219 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 1.7rem;
+
+}
+.purchase-button{
+    font-family: "Outfit", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    fill: #0D051F;
+    color: #0D051F;
+    background-color: #FFFFFF;
+    border: solid 2px #FFFFFF;
+    border-radius: 5px ;
+    padding: 10px 35px ;
+}
+.apply-img-area{
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 0rem;
+    padding: 1rem 0rem;
+    height: 100%;
+  
+}
+.advantage-section{
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 0rem;
+    padding: 1rem 0rem;
+    height: 100%;
+}
+/* .apply-img-area-item1{
+}
+.apply-img-area-item2{
+    margin-top: 5rem;
+} */
+
+.support{
+    background: linear-gradient(to bottom,rgb(21, 21, 24),rgb(43, 28, 60));
+    padding: 2rem 2rem;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support-area{
+    text-align: center;
+    width: fit-content;
+    width: 40%;
+}
+.support-area-text1{
+    font-size: 2rem;
+    color: white;
+    margin: 1rem;
+}
+.support-area-text2{
+    font-size: 1.3rem;
+    color: rgb(182, 180, 180);
+    margin: 1rem;
+}
+.plugin{
+    padding: 2rem 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.plugin-text{
+    text-align: center;
+    width: fit-content;
+    width: 55%;
+}
+.plugin-text1{
+    font-size: 2.8rem;
+    color: white;
+    margin: 1rem;
+}
+.plugin-text2{
+    font-size: 1.3rem;
+    color: rgb(182, 180, 180);
+    margin: 1rem;
+}
+.purchase-button:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #FFFFFF;
+}
+.content-text{
+    display: flex;
+    /* justify-content: start; */
+    flex-direction: row; 
+    width: 100%;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    margin: 4.2rem 2.7rem;
+    
+}
+.color-text{
+    background: linear-gradient(90deg, #F87516 16%, #5E11FF 43%); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+    color: transparent;
+    
+}
+.text2{
+    line-height: 1.4rem;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+}
+.text-area1{
+    font-size: 1.5rem;
+    margin-right: 6.5rem;
+    max-width: 9rem;
+    line-height: 1.5rem;
+}
+.text-area2{
+     margin-left: 5rem;
+    max-width: 40vw;
+    color: #EEE5FF;
+    margin: 0px 10px 15px 0px;
+    font-family: "Sora", Sans-serif;
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 5rem;
+}
+.ma-4{
+    margin-top: 1rem;
+}
+.text3{
+    margin-top: 2rem;
+    color: rgb(194, 204, 204);
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+.tagline1{
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5rem;
+
+}
+.wand-section{
+    display: flex;
+    justify-content: space-between;
+}
+.reviews{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+.wand-section-text1{
+    max-width: 65%;
+    font-size: 3rem;
+    font-weight: 300;
+    color: #FFFFFF;
+    
+}
+.wand-section-text2{
+    max-width: 65%;
+    font-size: 1.3rem;
+    /* font-weight: 100; */
+    color: rgb(194, 204, 204);
+    margin: 2rem 0rem;
+
+}
+.apply-text{
+    height: 10vh;
+    margin: 5rem 0rem;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+}
+.apply{
+    width: 50%;
+}
+.wand-img{
+    width: 10rem;
+}
+.color-btn{
+    font-family: "Outfit", Sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: #FFFFFF;
+    background: linear-gradient(90deg,  #5E11FF 16%, #F87516 100%);
+    border-radius: 19px ; 
+    border: solid 0px ;
+    padding: 15px 35px ;
+}
+.color-btn-item{
+    padding: 0px 8px;
+}
+
+
+@media (max-width: 1024px) {
+    .text-area2{
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+}
+@media (max-width: 1366px) {
+    .text-area2{
+        font-size: 55px;
+        line-height: 75px;
+    }
+}
