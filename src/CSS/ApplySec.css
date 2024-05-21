@@ -67,3 +67,25 @@
         height: auto;
     }
 }
+@media (max-width: 416px) {
+    .contain{
+        max-width: 90%;
+        
+    }
+    .contain-text1{
+        font-size: 1.4rem;
+        color: white;
+        margin: 1rem;
+    
+    }
+    .contain-text2{
+        font-size: 1rem;
+        color: rgb(182, 180, 180);
+        margin: 1rem;
+    
+    }
+    img{
+        max-width: 90%;
+        height: auto;
+    }
+}

@@ -245,3 +245,24 @@
         row-gap: 3rem;
     }
 }
+
+@media (max-width: 414px) {
+    .text-area2{
+        margin:10rem;
+        width: 100%;
+        font-size: 6rem;
+        line-height: 75px;
+    }
+    .purchase-button{
+        display: none;
+    }
+    .apply-img-area{
+        flex-direction: column;
+        row-gap: 3rem;
+      
+    }
+    .advantage-section{
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+}
