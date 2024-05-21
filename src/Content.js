@@ -66,7 +66,7 @@ export default function Content() {
             </div>
 
         </div>
-        <div className='container'>
+        <div className='container1'>
         <div className="apply-text ">
              <div className='apply'>
              Apply On Any Section Or Enable For Whole Page

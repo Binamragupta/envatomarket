@@ -26,6 +26,9 @@
     height: 100%;
   
 }
+/* .container1{
+    margin-bottom: 20rem;
+} */
 .advantage-section{
     position: relative;
     max-width: 100%;
@@ -225,11 +228,6 @@
     .purchase-button{
         display: none;
     }
-    .apply-img-area{
-        flex-direction: column;
-        row-gap: 3rem;
-      
-    }
     .advantage-section{
         flex-direction: column;
         row-gap: 3rem;
@@ -238,6 +236,10 @@
         
         flex-direction: column;
         row-gap: 3rem
+    }
+    .apply{
+        font-size: 2rem;
+
     }
 
 }
@@ -270,6 +272,10 @@
         flex-direction: column;
         row-gap: 3rem
     }
+    .apply{
+        font-size: 1.5rem;
+
+    }
 }
 
 @media (max-width: 414px) {
@@ -298,5 +304,9 @@
     .reviews{
         flex-direction: column;
         row-gap: 3rem
+    }
+    .apply{
+        font-size: 1rem;
+
     }
 }
