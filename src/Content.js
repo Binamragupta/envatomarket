@@ -35,7 +35,7 @@ export default function Content() {
                 </div>
             </div>
             <div className='text-area2'>
-                <div className=''>Attract Your Visitors Attention With Colorful</div>
+                <div className='text11'>Attract Your Visitors Attention With Colorful</div>
                 <div className='color-text'>Motion Art Effect</div>
                 <div className='text3'>Unleash the power of creativity with Motion Art for Elementor - your ultimate solution for seamlessly integrating captivating animations into your website.</div>
                 <div className='tagline1'>Trusted by thousands of users around the world</div>
