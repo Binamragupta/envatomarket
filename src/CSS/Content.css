@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 5rem 1.7rem;
+    margin: 6rem 1.7rem;
 
 }
 .purchase-button{
@@ -122,8 +122,8 @@
     line-height: 1.5rem;
 }
 .text-area2{
-     margin-left: 5rem;
-    max-width: 40%;
+    margin-left: 5rem;
+    max-width: 50%;
     color: #EEE5FF;
     margin: 0px 10px 15px 0px;
     font-family: "Sora", Sans-serif;
@@ -207,9 +207,18 @@
 
 
 @media (max-width: 1024px) {
+    .content-text{
+        flex-direction: column;
+        row-gap: 2rem;
+    
+    }
+    .wand-section{
+        flex-direction: column;
+        row-gap: 2rem;
+    }
     .text-area2{
         margin:1rem;
-        width: 70%;
+        width: 100%;
         font-size: 5rem;
         line-height: 60px;
     }
@@ -233,11 +242,16 @@
 
 }
 @media (max-width: 866px) {
+    .content-text{
+        flex-direction: column;
+        row-gap: 2rem;
+    }
     .text-area2{
         margin:1rem;
-        width: 70%;
-        font-size: 6rem;
-        line-height: 75px;
+        width: 100%;
+        font-size: 2rem;
+        line-height: 2rem;
+        
     }
     .purchase-button{
         display: none;
@@ -259,6 +273,10 @@
 }
 
 @media (max-width: 414px) {
+    .content-text{
+        flex-direction: column;
+        row-gap: 2rem;
+    }
     .text-area2{
         margin:1rem;
         width: 100%;

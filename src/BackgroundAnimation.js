@@ -53,7 +53,7 @@ function getWebGLContext(canvas) {
         );
     }
 
-    gl.clearColor(0.0, 0.0, 0.0, 1.0);
+    gl.clearColor(0.0, 0.0, 0.1,1.0);
 
     const halfFloatTexType = isWebGL2
         ? gl.HALF_FLOAT
@@ -836,7 +836,7 @@ window.addEventListener("mousemove", function (e) {
     };
   }, []);
 
-  return <canvas ref={canvasRef} style={{ position: 'absolute', top: 0, left: 0, zIndex: -1 }} />;
+  return <canvas ref={canvasRef} style={{ position: 'absolute', top: 0, left: 0, zIndex: -1 , }} />;
 };
 
 export default BackgroundAnimation;
