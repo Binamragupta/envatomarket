@@ -151,8 +151,10 @@
 
 }
 .wand-section{
+    padding: 1rem;
     display: flex;
     justify-content: space-between;
+    width: 90%;
 }
 .reviews{
     display: flex;
@@ -233,8 +235,8 @@
         row-gap: 3rem;
     }
     .reviews{
-        
-        flex-direction: column;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
         row-gap: 3rem
     }
     .apply{
