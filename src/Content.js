@@ -66,15 +66,19 @@ export default function Content() {
             </div>
 
         </div>
-        <div className="apply-text">
+        <div className='container'>
+        <div className="apply-text ">
              <div className='apply'>
              Apply On Any Section Or Enable For Whole Page
              </div>
         </div>
+        </div>
         {/* div for section and page image make one single component */}
-        <div className='apply-img-area'>
+        <div className='container'>
+            <div className='apply-img-area'>
             <ApplySec className="apply-img-area-item1" img={section} title="Apply On Section" con="Apply on section is a game-changer, offering an unparalleled way to manage applications directly from your website." />
             <ApplySec className="apply-img-area-item2" img={pagei} title="Apply On Page" con="Take your website to new heights with Motion Art for Elementor. Embrace the power of motion and animation." />
+            </div>
         </div>
         {/* supported by part */}
         <div className='support'>
@@ -94,10 +98,10 @@ export default function Content() {
         </div>
         {/* advantage section use grid*/}
         <div className='advantage-section'>
-            <Advbox img={advi1} head="Light Weight" title="Motion Art for Elementor is designed to be lightweight."/>
-            <Advbox img={advi2} head="100% Responsive" title="Create a consistent visual experience across all devices."/>
-            <Advbox img={advi3} head="User Friendly Interface" title="Ensure a smooth experience for both applicants and administrators."/>
+            <Advbox className='advantage-section-item' img={advi1} head="Light Weight" title="Motion Art for Elementor is designed to be lightweight."/>
+            <Advbox className='advantage-section-item' img={advi2} head="100% Responsive" title="Create a consistent visual experience across all devices."/>
+            <Advbox className='advantage-section-item' img={advi3} head="User Friendly Interface" title="Ensure a smooth experience for both applicants and administrators."/>
         </div>
     </div>
-  )
+  ) 
 }

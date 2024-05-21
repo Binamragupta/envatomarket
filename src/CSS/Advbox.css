@@ -18,3 +18,38 @@
     color: rgb(182, 180, 180);
     margin: 1rem;
 }
+
+@media (max-width: 1024px) {
+    .adv{
+        min-width: 90%;
+    
+        
+    }
+    .adv-text1{
+        font-size: 1.3rem;
+        
+        margin: 1rem
+    }
+    .adv-text2{
+        font-size: 1rem;
+        
+        margin: 1rem;
+    }
+
+}
+@media (max-width: 866px) {
+    .adv{
+        min-width: 90%;
+        
+    }
+    .adv-text1{
+        font-size: 1.3rem;
+        
+        margin: 1rem
+    }
+    .adv-text2{
+        font-size: 1rem;
+        
+        margin: 1rem;
+    }
+}
