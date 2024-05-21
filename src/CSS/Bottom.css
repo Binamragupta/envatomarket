@@ -25,3 +25,35 @@
 .lin:hover{
     color: azure;
 }
+@media (max-width: 1024px) {
+    .footer{
+       flex-direction: column-reverse;
+        
+    }
+    .item2{
+        min-width: 30%;
+        
+    }
+
+}
+@media (max-width: 866px) {
+    .footer{
+        flex-direction: column-reverse;
+         
+     }
+     .item2{
+        min-width: 40%;
+        
+    }
+}
+@media (max-width: 416px) {
+    .footer{
+        flex-direction: column-reverse;
+         
+     }
+     .item2{
+        min-width: 50%;
+        
+    }
+     
+}
