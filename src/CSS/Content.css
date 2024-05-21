@@ -123,7 +123,7 @@
 }
 .text-area2{
      margin-left: 5rem;
-    max-width: 40vw;
+    max-width: 40%;
     color: #EEE5FF;
     margin: 0px 10px 15px 0px;
     font-family: "Sora", Sans-serif;
@@ -223,6 +223,11 @@
         flex-direction: column;
         row-gap: 3rem;
     }
+    .reviews{
+        
+        flex-direction: column;
+        row-gap: 3rem
+    }
 
 }
 @media (max-width: 866px) {
@@ -244,6 +249,11 @@
         flex-direction: column;
         row-gap: 3rem;
     }
+    .reviews{
+        
+        flex-direction: column;
+        row-gap: 3rem
+    }
 }
 
 @media (max-width: 414px) {
@@ -264,5 +274,9 @@
     .advantage-section{
         flex-direction: column;
         row-gap: 3rem;
+    }
+    .reviews{
+        flex-direction: column;
+        row-gap: 3rem
     }
 }
