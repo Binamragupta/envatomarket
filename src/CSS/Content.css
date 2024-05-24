@@ -280,7 +280,7 @@
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 434px) {
     .content-text{
         flex-direction: column;
         row-gap: 2rem;
