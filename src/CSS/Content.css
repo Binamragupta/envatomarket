@@ -325,6 +325,7 @@
     }
     .plugin{
         width: 95%;
+        padding: 1rem 1rem;
     }
     .plugin-text1{
         font-size: 1.5rem;
@@ -341,5 +342,11 @@
         max-width: 95%;
         font-size: 1rem;
     
+    }
+    .text-area2{
+        max-width: 75%;
+        font-size: 3rem;
+        font-weight: 500;
+        line-height: 3rem;
     }
 }
