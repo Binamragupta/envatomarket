@@ -311,8 +311,16 @@
         font-size: 1rem;
 
     }
+    .support{
+        padding: 0.2rem 0rem;
+    }
     .support-area{
-        font-size:smaller;
-        width:80%;
+        width:95%;
+    }
+    .support-area-text1{
+        font-size: 1.5rem;
+    }
+    .support-area-text2{
+        font-size: 0.8rem;
     }
 }
