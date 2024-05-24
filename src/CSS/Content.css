@@ -311,7 +311,8 @@
         font-size: 1rem;
 
     }
-    .support{
+    .support-area{
         font-size:smaller;
+        width:80%;
     }
 }
