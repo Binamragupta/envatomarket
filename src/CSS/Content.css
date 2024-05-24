@@ -312,7 +312,7 @@
 
     }
     .support{
-        padding: 0.2rem 0rem;
+        padding: 0.5rem 0rem;
     }
     .support-area{
         width:95%;
@@ -324,13 +324,13 @@
         font-size: 0.8rem;
     }
     .plugin{
-        width: 80%;
+        width: 95%;
     }
     .plugin-text1{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .plugin-text2{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .wand-section-text1{
         max-width: 95%;
