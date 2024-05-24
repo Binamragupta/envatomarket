@@ -323,10 +323,23 @@
     .support-area-text2{
         font-size: 0.8rem;
     }
+    .plugin{
+        width: 80%;
+    }
     .plugin-text1{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .plugin-text2{
         font-size: 0.8rem;
+    }
+    .wand-section-text1{
+        max-width: 95%;
+        font-size: 1.5rem;
+        
+    }
+    .wand-section-text2{
+        max-width: 95%;
+        font-size: 1rem;
+    
     }
 }
